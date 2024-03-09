@@ -14,17 +14,22 @@ $custom_logo_url = wp_get_attachment_image_src( $custom_logo_id , 'full' ); // R
 </head>
 
 <body <?php body_class(); ?>>
-    <header class="header">
-        <a href="<?= home_url( '/' ); ?>">
-        <?= get_custom_logo(); ?>
-        </a>  
-        <nav>
-            <?=
-            wp_nav_menu( [
-                'theme_location' => 'header-top',
-                'menu_class'        => 'header-menu-top',
-            ] );
-            ?>
+    <header>
+        <nav class="header-menu">
+            <div class="logo">
+                <a href="<?= home_url( '/' ); ?>">
+                <?= get_custom_logo(); ?>
+                </a>  
+            </div>
+                <?=
+                wp_nav_menu( [
+                    'theme_location' => 'header-top',
+                    'menu_class' => 'header-menu-top',
+                ] );
+                ?>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
         </nav>
     </header>
     <?php wp_body_open(); ?>

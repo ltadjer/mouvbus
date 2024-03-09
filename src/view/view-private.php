@@ -1,4 +1,4 @@
-<div class="container">
+<div class="page-container">
     <section class="hero">
         <div>
             <h1> <?= MB_get_field('title_private_hero') ?> </h1>

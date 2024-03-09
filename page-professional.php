@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Page Professioannels
+/* Template Name: Page Professionnels
 */
 
 get_header();
