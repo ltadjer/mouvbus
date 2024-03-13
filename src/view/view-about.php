@@ -6,7 +6,7 @@
         </div>
         <img src="<?= MB_get_field('image_about_hero') ?>" alt="">
     </section>
-    <section>
+    <section class="about-images">
         <div>
             <img src="<?= MB_get_field('image_1_about_section_1') ?>" alt="">
             <img src="<?= MB_get_field('image_2_about_section_1') ?>" alt="">
@@ -15,30 +15,32 @@
         </div>
         <p> <?= MB_get_field('text_about_section_1') ?> </p>
     </section>
-    <section>
+    <section class="section-members">
         <h2> <?= MB_get_field('title_about_section_2') ?> </h2>
-        <div>
-            <img src="<?= MB_get_field('image_1_about_section_2') ?>" alt="">
-            <p> <?= MB_get_field('title_1_about_section_2') ?> </p>
-            <p> <?= MB_get_field('subtitle_1_about_section_2') ?> </p>
-        </div>
-        <div>
-            <img src="<?= MB_get_field('image_2_about_section_2') ?>" alt="">
-            <p> <?= MB_get_field('title_2_about_section_2') ?> </p>
-            <p> <?= MB_get_field('subtitle_2_about_section_2') ?> </p>
-        </div>
-        <div>
-            <img src="<?= MB_get_field('image_3_about_section_2') ?>" alt="">
-            <p> <?= MB_get_field('title_3_about_section_2') ?> </p>
-            <p> <?= MB_get_field('subtitle_3_about_section_2') ?> </p>
-        </div>
-        <div>
-            <img src="<?= MB_get_field('image_4_about_section_2') ?>" alt="">
-            <p> <?= MB_get_field('title_4_about_section_2') ?> </p>
-            <p> <?= MB_get_field('subtitle_4_about_section_2') ?> </p>
+        <div class="members">
+            <div class="member">
+                <img src="<?= MB_get_field('image_1_about_section_2') ?>" alt="">
+                <p> <?= MB_get_field('title_1_about_section_2') ?> </p>
+                <p class="subtitle"> <?= MB_get_field('subtitle_1_about_section_2') ?> </p>
+            </div>
+            <div class="member">
+                <img src="<?= MB_get_field('image_2_about_section_2') ?>" alt="">
+                <p> <?= MB_get_field('title_2_about_section_2') ?> </p>
+                <p class="subtitle"> <?= MB_get_field('subtitle_2_about_section_2') ?> </p>
+            </div>
+            <div class="member">
+                <img src="<?= MB_get_field('image_3_about_section_2') ?>" alt="">
+                <p> <?= MB_get_field('title_3_about_section_2') ?> </p>
+                <p class="subtitle"> <?= MB_get_field('subtitle_3_about_section_2') ?> </p>
+            </div>
+            <div class="member">
+                <img src="<?= MB_get_field('image_4_about_section_2') ?>" alt="">
+                <p> <?= MB_get_field('title_4_about_section_2') ?> </p>
+                <p class="subtitle"> <?= MB_get_field('subtitle_4_about_section_2') ?> </p>
+            </div>
         </div>
     </section>
-    <section>
+    <section class="image-full-width-text">
         <img src="<?= MB_get_field('image_about_section_3') ?>" alt="">
         <div>
             <h2> <?= MB_get_field('title_about_section_3') ?> </h2>

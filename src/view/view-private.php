@@ -6,28 +6,28 @@
         </div>
         <img src="<?= MB_get_field('image_private_hero') ?>" alt="">
     </section>
-    <section>
+    <section class="two-columns">
         <img src="<?= MB_get_field('image_private_section_1') ?>" alt="">
         <div>
             <h2> <?= MB_get_field('title_private_section_1') ?> </h2>
             <p> <?= MB_get_field('text_private_section_1') ?> </p>
         </div>
     </section>
-    <section>
+    <section class="two-columns bg-blue">
         <div>
             <h2> <?= MB_get_field('title_private_section_2') ?> </h2>
             <p> <?= MB_get_field('text_private_section_2') ?> </p>
         </div>
         <img src="<?= MB_get_field('image_private_section_1') ?>" alt="">
     </section>
-    <section>
+    <section class="two-columns">
         <img src="<?= MB_get_field('image_private_section_3') ?>" alt="">
         <div>
             <h2> <?= MB_get_field('title_private_section_3') ?> </h2>
             <p> <?= MB_get_field('text_private_section_3') ?> </p>
         </div>
     </section>
-    <section>
+    <section class="image-full-width-text">
         <img src="<?= MB_get_field('image_private_section_4') ?>" alt="">
         <div>
             <h2> <?= MB_get_field('title_private_section_4') ?> </h2>

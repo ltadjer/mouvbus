@@ -6,21 +6,21 @@
         </div>
         <img src="<?= MB_get_field('image_professional_hero') ?>" alt="">
     </section>
-    <section>
+    <section class="two-columns">
         <img src="<?= MB_get_field('image_professional_section_1') ?>" alt="">
         <div>
             <h2> <?= MB_get_field('title_professional_section_1') ?> </h2>
             <p> <?= MB_get_field('text_professional_section_1') ?> </p>
         </div>
     </section>
-    <section>
+    <section class="two-columns bg-yellow">
         <div>
             <h2> <?= MB_get_field('title_professional_section_2') ?> </h2>
             <p> <?= MB_get_field('text_professional_section_2') ?> </p>
         </div>
         <img src="<?= MB_get_field('image_professional_section_2') ?>" alt="">
     </section>
-    <section>
+    <section class="image-full-width-text">
         <img src="<?= MB_get_field('image_professional_section_3') ?>" alt="">
         <div>
             <h2> <?= MB_get_field('title_professional_section_3') ?> </h2>
