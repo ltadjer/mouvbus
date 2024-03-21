@@ -9,7 +9,7 @@ $custom_logo_url = wp_get_attachment_image_src( $custom_logo_id , 'full' ); // R
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    
+    <?= MB_root_css(); ?>
     <?php wp_head(); ?>
 </head>
 

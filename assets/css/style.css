@@ -76,14 +76,14 @@ header {
     border-radius: 10px;
 }
 .header-menu .menu-menu-principal-container ul li.current-menu-item a {
-    color: var(#3CB0D4) !important;
-    border-bottom: 2px solid var(#3CB0D4) !important;
+    color: var(var(--main_color)) !important;
+    border-bottom: 2px solid var(var(--main_color)) !important;
     padding-bottom: 3px;
 
 }
 .header-menu .menu-menu-principal-container ul li a:hover {
-    color: var(--secondary_color);
-    border-bottom: 2px solid var(--secondary_color);
+    color: var(--main_color);
+    border-bottom: 2px solid var(--main_color);
     padding-bottom: 3px;
 }
 .header-menu .logo a img {
@@ -143,11 +143,19 @@ header {
         z-index: 98;
         margin-left: 45% !important;
         width: 55%;
-        background-color: var(--white);
+        background-color: #fff;
         -webkit-transition: 0.4s;
         transition: 0.4s;
-        padding: 20% 10% 10% 0;
-        border-radius: 0 0 0 20px;
+        padding: 110px 50px 50px 50px;
+        /*border-radius: 0 0 0 20px;*/
+    }
+
+    .header-menu-top ul {
+        position: absolute !important;
+        top: 0 !important;
+    }
+    .logo {
+        z-index: 1000;
     }
     .header-menu-top.is-active {
         left: 0;
@@ -165,7 +173,7 @@ header {
 footer {
     text-align: center;
     padding: 1% 0;
-    border-top: 1px solid #3CB0D4;
+    border-top: 1px solid var(--main_color);
     margin: 5% 10% 0;
 }
 footer ul {
@@ -189,7 +197,7 @@ footer ul {
     background-color: transparent;
 }
 .btn-blue {
-    background-color: #3CB0D4;
+    background-color: var(--main_color);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -238,13 +246,13 @@ footer ul {
     width: 50%;
 }
 .bg-blue {
-    background-color: #3CB0D4;
+    background-color: var(--main_color);
 }
 .bg-blue h2, .bg-blue p {
     color: white;
 }
 .bg-yellow {
-    background-color: #FBD820;
+    background-color: var(--secondary_color);
 }
 @media screen and (max-width: 900px){
     .two-columns {
@@ -286,7 +294,7 @@ footer ul {
 }
 .section-icons h2 {
     margin-bottom: 5%;
-    color: #3CB0D4;
+    color: var(--main_color);
 }
 .icons {
     display: flex;
@@ -310,7 +318,7 @@ footer ul {
 }
 .section-members h2 {
     margin-bottom: 5%;
-    color: #FBD820;
+    color: var(--secondary_color);;
 }
 .members {
     display: flex;
@@ -322,7 +330,7 @@ footer ul {
     text-align: center;
 }
 .member .subtitle {
-    color: #3CB0D4;
+    color: var(--main_color);
 }
 @media screen and (max-width: 900px){
     .members {

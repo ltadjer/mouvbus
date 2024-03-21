@@ -9,4 +9,7 @@
         </div>
         <img src="<?= MB_get_field('image_contact_hero') ?>" alt="">
     </section>
+    <section class="contact-form">
+        <?php echo do_shortcode('[wpforms id="258"]'); ?>        
+    </section>
 </div>

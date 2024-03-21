@@ -16,10 +16,6 @@ $MB_Add_option= [
 
 	['name' => 'Couleur secondaire', 'slug' => 'secondary_color', 'type' => 'color'],
 
-	['name' => 'Blanc', 'slug' => 'white', 'type' => 'color'],
-
-	['name' => 'Noir', 'slug' => 'black', 'type' => 'color'],
-
 	['name' => 'Footer', 'slug' => 'title_footer', 'type' => 'titre'],
 
 	['name' => 'Titre liens footer', 'slug' => 'title_link_footer', 'type' => 'text'],
@@ -29,7 +25,6 @@ $MB_Add_option= [
 	['name' => 'Lien Facebook', 'slug' => 'link_facebook', 'type' => 'text'],
 
 	['name' => 'Lien Linkedin', 'slug' => 'link_linkedin', 'type' => 'text'],
-	['name' => 'Lien Ausha', 'slug' => 'link_ausha', 'type' => 'text'],
 
 	['name' => 'Texte copyright', 'slug' => 'text_copyright', 'type' => 'text'],
 
@@ -38,8 +33,6 @@ $MB_Add_option= [
 	['name' => 'Page 404', 'slug' => 'title_404', 'type' => 'titre'],
 
 	['name' => 'Texte page 404', 'slug' => 'text_404', 'type' => 'text'],
-
-	['name' => 'Texte lien page d\'accueil', 'slug' => 'text_btn_404', 'type' => 'text'],
 
 ];
 
