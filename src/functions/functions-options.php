@@ -18,8 +18,6 @@ $MB_Add_option= [
 
 	['name' => 'Footer', 'slug' => 'title_footer', 'type' => 'titre'],
 
-	['name' => 'Titre liens footer', 'slug' => 'title_link_footer', 'type' => 'text'],
-
 	['name' => 'Lien Instagram', 'slug' => 'link_instagram', 'type' => 'text'],
 
 	['name' => 'Lien Facebook', 'slug' => 'link_facebook', 'type' => 'text'],
@@ -27,8 +25,6 @@ $MB_Add_option= [
 	['name' => 'Lien Linkedin', 'slug' => 'link_linkedin', 'type' => 'text'],
 
 	['name' => 'Texte copyright', 'slug' => 'text_copyright', 'type' => 'text'],
-
-	['name' => 'Date copyright', 'slug' => 'date_copyright', 'type' => 'text'],
 
 	['name' => 'Page 404', 'slug' => 'title_404', 'type' => 'titre'],
 
