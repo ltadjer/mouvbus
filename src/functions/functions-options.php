@@ -30,6 +30,7 @@ $MB_Add_option= [
 
 	['name' => 'Texte page 404', 'slug' => 'text_404', 'type' => 'text'],
 
+	['name' => 'Texte lien page d\'accueil', 'slug' => 'text_btn_404', 'type' => 'text'],
 ];
 
 

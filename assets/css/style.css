@@ -51,12 +51,12 @@ header {
     position: fixed;
     width: 100%;
     background-color: white;
+    box-shadow: #00000029 0 0 15px;
 }
 .header-menu {
     display: flex;
     justify-content: space-between;
     padding: 0.8% 6%;
-    box-shadow: #00000029 0 0 15px;
 }
 .header-menu .menu-menu-principal-container {
     display: flex;
@@ -145,7 +145,7 @@ header {
         flex-direction: column;
         gap: 1.5rem !important;
         align-items: flex-end;
-        z-index: 98;
+        /* z-index: 98; */
         margin-left: 45% !important;
         width: 55%;
         background-color: #fff;
@@ -190,7 +190,8 @@ footer ul {
     padding: 0;
 }
 
-footer ul li a {
+footer ul li a,
+footer a {
     color: var(--black);
 }
 
@@ -239,7 +240,11 @@ footer img {
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        padding: 0 4%;
+        padding: 6%;
+    }
+    .footer-rs,
+    .footer-copyright {
+        padding-bottom: 5%;
     }
 }
 /* BUTTONS */
@@ -251,12 +256,29 @@ footer img {
     background-color: transparent;
     width: fit-content;
 }
+
+.btn:hover {
+    background-color: var(--main_color);
+    border: 1px solid var(--main_color);
+    color: white;
+    cursor: pointer;
+    transform: scale(0.95);
+} 
+
 .btn-blue {
     background-color: var(--main_color);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     width: fit-content;
+}
+
+.btn-blue:hover {
+    background-color: transparent;
+    border: var(--main_color) 1px solid;
+    color: var(--main_color);
+    cursor: pointer;
+    transform: scale(0.95);
 }
 
 /* HERO */
@@ -335,14 +357,25 @@ div.overlay {
 
 /* CONTACT SECTION */
 .contact-section {
-    height: 40vh;
     width: 100%;
     text-align: center;
 }
+
+.contact-section .overlay {
+    height: 40vh;
+}
+
 .contact-section p {
     width: 70%;
 }
-/* ICONs */
+
+@media screen and (max-width: 768px) {
+    .contact-section .overlay {
+        height: 70vh;
+    }
+  
+}
+/* ICONS */
 .section-icons {
     text-align: center;
     margin: 5%;
@@ -486,3 +519,34 @@ div.overlay {
         padding-bottom: 0;
     }
 }
+
+/* RGPD */
+
+@media screen and (max-width:900px){
+    .RGPD-content {
+        width: 80% !important;
+        margin: 0 10% !important;
+    }   
+}
+
+.RGPD-content {
+    width: 60%;
+    margin: 0 20%;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding-top: 6%;
+
+}
+
+
+/* 404 */
+
+.not-found-container  {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8%;
+}
+

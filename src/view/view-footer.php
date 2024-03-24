@@ -17,7 +17,7 @@
         <a href="<?= get_option('link_linkedin') ?>"><i class="fa-brands fa-linkedin-in"></i></a>                   
     </div>
     <div class="footer-copyright">
-        <span class="copyright"> <?= get_option('text_copyright') ?></span>
+        <span class="copyright"> <?= get_option('text_copyright') ?> - <a href="/mentions-legales"> Mentions légales </a> -  <a href="/politique-de-confidentialite"> Politique de confidentialité </a> </span>
     </div>
 </footer>
 <?php wp_footer(); ?>
